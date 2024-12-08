@@ -1,0 +1,94 @@
+
+:root{
+    --main-color:#E65F78;
+}
+
+
+
+
+
+/* ==========nav========== */
+
+.nav-item .nav-color{
+    color: var(--main-color);
+    font-weight: bold;
+}
+
+.nav-item .nav-link{
+ transition: all 0.3s;
+}
+.nav-item .nav-link:hover{
+    color: var(--main-color);
+    
+}
+/* .nav-item{
+    position: relative;
+}
+.nav-item .nav-link::after{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 5px;
+    background-color: var(--main-color);
+} */
+/* ==========header========== */
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/header-bg.jpg);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+header .header-contant span{
+    font-size:65px ;
+    font-weight:500 ;
+}
+header .header-contant h1{
+    font-size:65px ;
+    font-weight:500 ;
+}
+header .header-contant button{
+    border: 1px solid white;
+    background-color:transparent;
+    width:170px ;
+    height: 50px;
+    border-radius: 30px;
+    transition: all 0.2s;
+    color: white;
+}
+header .header-contant button:hover{
+    background-color:white ;
+    color: black;
+}
+/* ==========about========== */
+.about-info .inner-about h3> span{
+    color: var(--main-color);
+}
+ .about-info .inner-about .progress{
+    margin-block: 15px;
+    border-radius: 0;
+   
+
+ }
+ .about-info .inner-about .progress-bar{
+    background-color: var(--main-color);
+   
+
+ }
+ .about-info .inner-about .about-icon li{
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid rgb(184, 182, 182);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: 10px;
+    transition: all 0.4s;
+ }
+ .about-info .inner-about .about-icon li:hover{
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+ }
